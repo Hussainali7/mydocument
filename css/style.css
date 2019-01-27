@@ -1,0 +1,181 @@
+#wrapper{
+	font-family: tohma;
+}
+.container{
+	width: 95%;
+	margin: auto;
+}
+#subheader{
+	width: 100%;
+	height: 30px;
+	background: #2c96da;
+	color: #fff;
+	margin-top: -15px;
+}
+#subheader p{
+	float: left;
+	margin-top: 7px;
+}
+#subheader a{
+	float: right;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 50px;
+}
+/*logo*/
+#main-header{
+	width: 100%;
+	height: 100px;
+	background: #07afc8;
+	float:left;
+	margin-top: -15px;
+}
+#logo{
+	width: 250px;
+	margin-top: 10px;
+	float: left;
+}
+#one{
+	color: black;
+	font-size: 45px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-family: cursive;
+}
+#two{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: cursive;
+}
+/*search*/
+#search{
+	width: 650px;
+	float: left;
+	padding: 20px;
+	margin-left: 50px;
+}
+.search-area{
+	width: 550px;
+	height: 50px;
+	background: #fff;
+	border: none;
+	border-radius: 10px;
+	float: left;
+	padding-left: 15px;
+}
+.search-btn{
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	border:none;
+	color: #fff;
+	background: blue;
+	margin-left: -15px
+
+}
+/*user menu*/
+#user-menu{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+}
+#user-menu li{
+	float: left;
+	width: 140px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border-left: 1px solid black;
+}
+#user-menu li:hover{
+font-size: 30px;
+transition: all .5s ease;
+}
+#user-menu li a{
+	color: white;
+	text-decoration: none;
+}
+/*nav bar*/
+#navigation{
+	width: 100%;
+	height: 35px;
+	background: #07afc8;
+	float: left;
+}
+nav{
+	width: 1280px;
+	margin: auto;
+}
+nav a{
+	margin-left: 35px;
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	color: #000;
+	transition: all .5s ease;
+}
+/*banner*/
+#banner{
+	width: 100%;
+	max-width: 100%;
+	float: left;
+}
+/*category*/
+#heading-block{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: #07afc8;
+	font-size: 22px;
+}
+#heading-block{
+	line-height: 35px;
+	border-left: 20px solid #07afc8;
+	padding-left: 10px;
+}
+/*box*/
+.box{
+	width: 250px;
+	height: 250px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	margin-left: 50px;
+
+}
+.box span{
+		width: 100%;
+		height: 35px;
+		line-height: 35px;
+		background: rgba(0,0,0,0.5);
+		color: white;
+		display: block;
+		bottom: 39px;
+		position: absolute;
+		text-align: center;
+}
+.box:hover span{
+	color: #07afc8;
+}
+.box img{
+	max-width: 100%;
+	transition: all .5s ease;
+}
+.box:hover img{
+	transform: scale(1.5,1.5);
+	transition: all .5s ease;
+}
+
+.text{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	margin-top: 1000px;
+}
+}
